@@ -12,15 +12,20 @@
 	}
 
 	#restaurants-list li {
-		margin: 1rem;
-		width: 50%;
+		margin: 2rem;
+		width: 45%;
 	}	
+
+	.restaurant-info {
+		height: 19rem;
+	}
 }
 
 /*Phones max-width: 600px */
 @media screen and (max-width: 37.5em) {
 	#restaurants-list li {
 		width: 90%;
+		margin: 2rem 0.5rem;
 	}
 	
 	nav {
@@ -29,6 +34,10 @@
 
 	.filter-selects select {
 		width: 80%;
+	}
+
+	.restaurant-info {
+		height: 17rem;
 	}
 }
 
