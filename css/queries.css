@@ -11,84 +11,23 @@
 		font-size: 50%;
 	}
 
-	.header {
-		height: 60vh;
-	}
-
-	.section-about {
-		display: block;
-		text-align: center;
-	}
-
-	.avatar {
-		margin-bottom: 2rem;
-	}
-
-	.description {
-		max-width: 100vw;
-		padding: 0;
-	}
-
-	.grid__item {
+	#restaurants-list li {
+		margin: 1rem;
 		width: 50%;
-	}
-
-	.grid__figure {
-		margin: 0 2rem;
-	}
-
-	section {
-		padding: 6rem 2rem;
-		background-color: #dce6f5;
-	}
+	}	
 }
 
 /*Phones max-width: 600px */
 @media screen and (max-width: 37.5em) {
-	h2 {
-		letter-spacing: 0;
-		font-size: 3.8rem;
-	}
-
-	.small-text {
-		font-size: 1.5rem;
-	}
-
-	.header {
-		background-position: 50% 80%;
-	}
-
-	.navbar {
-		padding: 2rem;
-	}
-
-	.paragraph {
-		max-width: 100vw;
-		margin: 0.5rem 2rem;
-		text-align: left;
-	}
-
-	.section-heading {
-		margin: 1rem 2rem;
-		padding: 0;
-		text-align: left;
-	}
-
-	section {
-		padding: 4rem 1rem;
-		background-color: #dce6f5;
-	}
-
-	.grid__item {
-		margin: 2rem 0;
-	}
+	#restaurants-list li {
+		width: 100%;
+		min-width: 40rem;
+	}	
 }
 
 /*Small Phones max-width: 480px */
 @media screen and (max-width: 30em) {
-	.grid__item {
-		width: 100%;
-	}
+	
 }
 
 /*Large Desktop */
