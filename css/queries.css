@@ -20,9 +20,16 @@
 /*Phones max-width: 600px */
 @media screen and (max-width: 37.5em) {
 	#restaurants-list li {
-		width: 100%;
-		min-width: 40rem;
-	}	
+		width: 90%;
+	}
+	
+	nav {
+		height: 6rem;
+	}
+
+	.filter-selects select {
+		width: 80%;
+	}
 }
 
 /*Small Phones max-width: 480px */
@@ -35,8 +42,8 @@
 	html {
 		font-size: 75%;
 	}
-
-	.grid__item {
+/* 
+	#restaurants-list li {
 		width: 25%;
-	}
+	} */
 }
