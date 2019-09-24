@@ -61,6 +61,11 @@
 	html {
 		font-size: 50%;
 	}
+
+	#restaurants-list li {
+		min-width: 40rem;
+		max-width: 45rem;
+	}	
 /* 
 	#restaurant-container, 
 	#reviews-container {
