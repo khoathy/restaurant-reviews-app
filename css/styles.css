@@ -52,7 +52,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
     color: #aaa;
     font-size: 0.8rem;
     letter-spacing: 1px;
-    padding: 2.5rem;
+    padding: 2rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -230,10 +230,11 @@ nav h1 a {
 }
 .inside #map-container {
     background: #898c9e none repeat scroll 0 0;
-    height: 87%;
+    height: 90%;
     position: fixed;
     right: 0;
     top: 8rem;
+    bottom: 0;
     width: 40%;
 }
 .inside #map {
@@ -243,7 +244,7 @@ nav h1 a {
 }
 .inside #footer {
     bottom: 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 #restaurant-name {
@@ -307,7 +308,7 @@ nav h1 a {
     overflow: hidden;
     padding: 2rem 2rem 2rem;
     position: relative;
-    width: 85%;
+    width: 84%;
 }
 #reviews-list li p {
     margin: 0 0 1rem;
