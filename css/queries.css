@@ -20,13 +20,43 @@
 		height: 19rem;
 	}
 
-	/* Restaurant detail */
-	.inside #map-container {
-		position: relative;
-		right: 0;
-		top: 8rem;
-		bottom: 0;
+	/* Restaurant detail page */
+
+	#maincontent {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#breadcrumb {
 		width: 100%;
+	}
+
+	#restaurant-container { 
+		width: 100%;
+		padding: 12rem 0 2rem;
+	}
+
+	#reviews-container {
+		width: 100%;
+		padding: 8rem 0;
+	}
+
+	.inside #map-container {
+		top: 1rem;
+		width: 100%;
+		height: 35vh;
+		display: block;
+		position: relative;
+	}
+
+	#restaurant-img,
+	#restaurant-cuisine {
+		width: 100%;
+	}
+
+	#restaurant-img {
+		height: 50vh;
+		object-fit: cover;
 	}
 
 }
@@ -48,6 +78,41 @@
 
 	.restaurant-info {
 		height: 17rem;
+	}
+
+	/* Restaurant detail page */
+
+	#restaurant-container {
+		padding: 10rem 0 2rem;
+	}
+
+	#reviews-container {
+		width: 100%;
+		padding: 5rem 0 6rem;
+	}
+
+	#reviews-container h2 {
+		padding-bottom: 0;
+	}
+
+	#reviews-list li {
+		margin: 0 0 2.5rem;
+	}
+
+	#restaurant-name {
+		margin: 2rem 0 1rem;
+	}
+
+	#restaurant-img {
+		height: 30vh;
+	}
+
+	#restaurant-address {
+		margin: 1rem 0;
+	}
+
+	.inside #footer {
+		padding: 1rem 6rem;
 	}
 }
 
