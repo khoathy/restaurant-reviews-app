@@ -2,13 +2,22 @@
 /* CSS Document */
 
 html {
-	font-size: 62.5%;
+    font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+*:focus {
+    outline: 0 !important; 
 }
 
 body,
@@ -236,18 +245,19 @@ nav h1 a {
 
 .restaurant-info a {
     background-color: #f7a516;
-    border-bottom: 3px solid #eee;
+    /* border-bottom: 3px solid #eee; */
     color: #fff;
     display: inline-block;
     font-size: 1.6rem;
     margin: 1.5rem auto 0;
     padding: 1rem 2rem;
-    width: 50%;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 6rem;
+    width: 50%;
     min-width: 20rem;
+    box-shadow: rgba(51, 51, 51, 0.1) 2px 1rem 1rem;
 }
 
 .restaurant-day {
@@ -361,17 +371,46 @@ nav h1 a {
     box-shadow: rgba(51, 51, 51, 0.1) 2px 1rem 2rem;
     display: block;
     list-style-type: none;
-    margin: 0 0 3rem;
+    margin: 0 0 3.5rem;
     overflow: hidden;
-    padding: 2rem 2rem 2rem;
+    padding: 2rem 3rem 2rem;
     position: relative;
-    width: 84%;
+    width: 90%;
 }
 
 #reviews-list li p {
-    margin: 0 0 1rem;
+    margin: 0 0 0.5rem;
 }
 
 #restaurant-hours td {
     color: #666;
+}
+
+.review-name {
+    color: #3341ac;
+    font-size: 120%;
+    padding-bottom: 1rem;
+}
+
+.review-date,
+.review-rating {
+    font-size: 90%;
+    display: inline-block;
+    padding-right: 4rem;
+}
+
+.review-comments {
+    font-style : italic;
+    position: relative;
+    padding: 2rem 3rem 0;
+}
+
+.review-comments::before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -2rem;
+    left: -1rem;
+    opacity: 0.2;
 }
