@@ -19,6 +19,16 @@
 	.restaurant-info {
 		height: 19rem;
 	}
+
+	/* Restaurant detail */
+	.inside #map-container {
+		position: relative;
+		right: 0;
+		top: 8rem;
+		bottom: 0;
+		width: 100%;
+	}
+
 }
 
 /*Phones max-width: 600px */
@@ -49,10 +59,16 @@
 /*Large Desktop */
 @media screen and (min-width: 112.5em) {
 	html {
-		font-size: 75%;
+		font-size: 50%;
 	}
 /* 
-	#restaurants-list li {
-		width: 25%;
+	#restaurant-container, 
+	#reviews-container {
+		width: 50%;
+	}
+
+	.inside #map-container {
+		width: 50%;
 	} */
+
 }

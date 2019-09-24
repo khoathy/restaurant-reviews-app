@@ -2,8 +2,13 @@
 /* CSS Document */
 
 html {
-	box-sizing: border-box;
 	font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body,td,th,p{
@@ -43,8 +48,9 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
     display: block;
 }
 #maincontent {
-    background-color: #f3f3f3;
+    background-color: #f2f6f9;
     min-height: 100%;
+    width: 100vw;
     overflow: hidden;
 }
 #footer {
@@ -82,7 +88,7 @@ nav h1 a {
     background-color: #eee;
     font-size: 1.8rem;
     margin: 0;
-    width: calc(60% - 4rem);
+    width: 60%;
 }
 
 /* Display list items side by side */
@@ -245,7 +251,7 @@ nav h1 a {
 .inside #footer {
     bottom: 0;
     position: absolute;
-    width: 100%;
+    width: 100vw;
 }
 #restaurant-name {
     color: #f18200;
@@ -276,15 +282,20 @@ nav h1 a {
     text-transform: uppercase;
     width: 90%;
 }
+
 #restaurant-container, 
 #reviews-container {
-    border-bottom: 1px solid #d9d9d9;
-    border-top: 1px solid #fff;
+    /* border-bottom: 1px solid #d9d9d9; */
+    /* border-top: 1px solid #fff; */
     padding: 14rem 4rem 3rem;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #reviews-container {
     padding: 3rem 4rem 8rem;
+    background: #e6eaed;
 }
 #reviews-container h2 {
     color: #f58500;
@@ -296,6 +307,9 @@ nav h1 a {
 #reviews-list {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #reviews-list li {
     background-color: #fff;
