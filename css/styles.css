@@ -17,7 +17,9 @@ html {
   box-sizing: inherit; }
 
 *:focus {
-    outline: 0 !important; 
+    outline: 0 !important;
+    box-shadow: 0 0 3px 3px rgb(59, 82, 215, 0.3);
+    border-radius: 2px;
 }
 
 body,
@@ -316,7 +318,7 @@ nav h1 a {
 #restaurant-address {
     font-size: 1.8rem;
     margin: 1.5rem 0;
-    color: #e49638;
+    color: #f08d14;
 }
 
 #restaurant-cuisine {
@@ -388,15 +390,24 @@ nav h1 a {
 
 .review-name {
     color: #3341ac;
-    font-size: 120%;
+    font-size: 130%;
     padding-bottom: 1rem;
+    display: inline-block;
 }
 
-.review-date,
-.review-rating {
+.review-date {
     font-size: 90%;
     display: inline-block;
-    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.review-rating {
+    padding: 0.5rem 2rem;
+    background-color: #3341ac;
+    color:  #ffffff;
+    width: fit-content;
+    border-radius: 5rem;
+    letter-spacing: 1px;
 }
 
 .review-comments {
