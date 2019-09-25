@@ -262,6 +262,10 @@ nav h1 a {
     box-shadow: rgba(51, 51, 51, 0.1) 2px 1rem 1rem;
 }
 
+.restaurant-info a:focus {
+    box-shadow: 0 0 3px 3px rgb(59, 82, 215, 0.3);
+}
+
 .restaurant-day {
     padding-right : 2rem;
 }
@@ -397,17 +401,18 @@ nav h1 a {
 
 .review-date {
     font-size: 90%;
-    display: inline-block;
-    padding-left: 4rem;
+    float: right;
+    padding: 1rem;
+    /* display: inline-block;
+    padding-left: 4rem; */
 }
 
 .review-rating {
     padding: 0.5rem 2rem;
-    background-color: #3341ac;
-    color:  #ffffff;
+    background-color: #fce8d7;
     width: fit-content;
     border-radius: 5rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 .review-comments {
