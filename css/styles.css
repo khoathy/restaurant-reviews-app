@@ -184,6 +184,10 @@ nav h1 a {
     text-align-last: center;
 }
 
+.filter-selects select:focus {
+    box-shadow: 0 0 3px 3px rgba(156, 220, 254, 0.8);
+}
+
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
     display: flex;
