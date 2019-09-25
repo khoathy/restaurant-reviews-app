@@ -263,7 +263,7 @@ nav h1 a {
 }
 
 .restaurant-info a:focus {
-    box-shadow: 0 0 3px 3px rgb(59, 82, 215, 0.3);
+    box-shadow: 0 0 3px 3px rgb(59, 82, 215, 0.4);
 }
 
 .restaurant-day {
@@ -290,6 +290,7 @@ nav h1 a {
     top: 8rem;
     bottom: 0;
     width: 40%;
+    z-index: 1000;
 }
 
 .inside #map {

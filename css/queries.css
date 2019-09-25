@@ -21,7 +21,11 @@
 	}
 
 	/* Restaurant detail page */
-
+	
+	.inside #map-container {
+		z-index: 900;
+	}
+	
 	#maincontent {
 		display: flex;
 		flex-direction: column;
