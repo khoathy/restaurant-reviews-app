@@ -434,10 +434,11 @@ nav h1 a {
 
 .review-rating {
     padding: 0.5rem 2rem;
-    background-color: #fce8d7;
+    background-color: #fcf1e8;
     width: fit-content;
     border-radius: 5rem;
     letter-spacing: 0.5px;
+    color: #f58500;
 }
 
 .review-comments {
