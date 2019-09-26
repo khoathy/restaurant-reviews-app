@@ -17,6 +17,7 @@
     <header>
         <nav role="navigation">
             <h1><a href="/">Restaurant Reviews</a></h1>
+            <a href="#filter-container" class="skip-link">Go to main content</a>
         </nav>
     </header>
 
@@ -25,7 +26,7 @@
             <div id="map" role="application"></div>
         </section>
         <section>
-            <div class="filter-options">
+            <div class="filter-options" id="filter-container">
                 <h2>Filter Results</h2>
                 <div class="filter-selects">
                     <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">

@@ -90,8 +90,9 @@ nav {
     width: 100vw;
     height: 8rem;
     background: #21264b;
-    text-align:center;
+    text-align: center;
     display: flex;
+    position: relative;
 }
 
 nav h1 {
@@ -105,6 +106,19 @@ nav h1 a {
     letter-spacing: 0.5rem;
     word-spacing: 1rem;
     text-transform: uppercase;
+}
+
+.skip-link {
+    position: absolute;
+    left: 50%;
+    bottom: -10rem;
+    transform: translate(-50%);
+
+}
+
+.skip-link:focus {
+    visibility: visible;
+    bottom: 0;
 }
 
 #breadcrumb {
@@ -307,6 +321,7 @@ nav h1 a {
     bottom: 0;
     position: absolute;
     width: 100vw;
+    z-index: 1000;
 }
 
 #restaurant-name {
