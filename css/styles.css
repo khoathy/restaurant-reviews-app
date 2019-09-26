@@ -239,6 +239,11 @@ nav h1 a {
     border-top-right-radius: 1rem;
 }
 
+#restaurant-img {
+    height: 50vh;
+    object-fit: cover;
+}
+
 .restaurant-info {
     padding : 0rem 2.5rem;
     height: 22rem;
