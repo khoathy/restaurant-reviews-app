@@ -80,24 +80,34 @@ fetchRestaurantFromURL = (callback) => {
  * Create restaurant HTML and add it to the webpage
  */
 fillRestaurantHTML = (restaurant = self.restaurant) => {
+  // Display restaurant name
   const name = document.getElementById('restaurant-name');
   name.innerHTML = restaurant.name;
-
+  
+  // Display restaurant address
   const address = document.getElementById('restaurant-address');
   address.innerHTML = restaurant.address;
-
+  
+  // Display restaurant image
   const image = document.getElementById('restaurant-img');
-  image.className = 'restaurant-img'
+  const imgLarge = DBHelper.imageUrlForRestaurant(restaurant);
+  const imgSplit = imgLarge.split('.');
+  const imgSmall = imgSplit[0] + '-small.' + imgSplit[1];
+    
+  image.className = 'restaurant-img';
+  image.srcset = `${imgSmall} 500w, ${imgLarge} 800w`;
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
-
+  image.alt = restaurant.name + ' restaurant promotional image';
+  
+  // Display restaurant cuisine
   const cuisine = document.getElementById('restaurant-cuisine');
   cuisine.innerHTML = restaurant.cuisine_type;
 
-  // fill operating hours
+  // Fill operating hours
   if (restaurant.operating_hours) {
     fillRestaurantHoursHTML();
   }
-  // fill reviews
+  // Fill reviews
   fillReviewsHTML();
 }
 
