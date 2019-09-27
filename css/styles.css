@@ -420,7 +420,7 @@ nav h1 a {
 .review-name {
     color: #3341ac;
     font-size: 130%;
-    padding-bottom: 1rem;
+    padding: 0.5rem 1.5rem;
     display: inline-block;
 }
 
@@ -428,8 +428,6 @@ nav h1 a {
     font-size: 90%;
     float: right;
     padding: 1rem;
-    /* display: inline-block;
-    padding-left: 4rem; */
 }
 
 .review-rating {

@@ -84,6 +84,10 @@
 		padding: 10rem 0 2rem;
 	}
 
+	#restaurant-hours {
+		padding: 0 1.5rem;
+	}
+
 	#reviews-container {
 		width: 100%;
 		padding: 5rem 0 6rem;
@@ -95,6 +99,16 @@
 
 	#reviews-list li {
 		margin: 0 0 2.5rem;
+		padding: 1rem 2rem;
+	}
+
+	.review-comments {
+		padding: 1rem 1rem 1rem 1.5rem;
+	}
+
+	.review-comments::before {
+		font-size: 400%;
+		top: -1.5rem;
 	}
 
 	#restaurant-name {
