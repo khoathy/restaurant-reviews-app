@@ -41,13 +41,15 @@
         </section>
         <!-- Beginning map -->
         <section id="map-container">
-            <div id="map" aria-label="location" role="application"></div>
+            <!-- Skip map link -->
+            <a href="#reviews-container" class="map-skip-link">Skip Map to View Review</a>
+            <div id="map" tabindex="-1" aria-label="location" role="application"></div>
         </section>
         <!-- End map -->
         <!-- end restaurant -->
         <!-- Beginning reviews -->
         <section id="reviews-container">
-            <ul id="reviews-list"></ul>
+            <ul tabindex="-1" id="reviews-list"></ul>
         </section>
         <!-- End reviews -->
     </main>

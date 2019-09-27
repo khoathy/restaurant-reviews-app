@@ -16,8 +16,9 @@
 <body>
     <header>
         <nav role="navigation">
-            <h1><a href="/">Restaurant Reviews</a></h1>
-            <a href="#filter-container" class="skip-link">Go to main content</a>
+            <h1><a tabindex="1" href="/">Restaurant Reviews</a></h1>
+            <!-- Skip to main content -->
+            <a tabindex="2" href="#restaurants-list" class="skip-link">Go to main content</a>
         </nav>
     </header>
 
@@ -29,12 +30,12 @@
             <div class="filter-options" id="filter-container">
                 <h2>Filter Results</h2>
                 <div class="filter-selects">
-                    <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+                    <select tabindex="3" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
                         <option value="all" class="filter-choice">All Neighborhoods</option>
                     </select>
                     <label id="neighborhoods-label" class="filter-label">by neighborhood</label>
                     
-                    <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+                    <select tabindex="3" id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
                         <option value="all" class="filter-choice">All Cuisines</option>
                     </select>
                     <label id="cuisine-label" class="filter-label">by cuisine</label>

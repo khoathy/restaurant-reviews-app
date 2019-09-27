@@ -132,6 +132,20 @@ nav h1 a {
     transform: translate(-50%);
 }
 
+.map-skip-link {
+    position: absolute;
+    right: -200%;
+    top: 1rem;
+    transform: translate(50%);
+    color: #103ee6;
+    background: #e6eaed;
+    z-index: 2000;
+}
+
+.map-skip-link:focus {
+    right: 50%;
+}
+
 .skip-link:focus {
     bottom: 0;
 }
@@ -274,7 +288,7 @@ nav h1 a {
     justify-content: space-between;
 }
 
-.restaurant-info h1 {
+.restaurant-info h2 {
     color: #f48907;
     font-family: Arial,sans-serif;
     font-size: 2.4rem;
