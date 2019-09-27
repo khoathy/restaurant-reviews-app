@@ -131,13 +131,17 @@ nav h1 a {
     bottom: 0;
 }
 
-#breadcrumb {
-    padding: 1.2rem 0 1.2rem 4rem;
-    list-style: none;
-    background-color: #f2f6f9;
-    font-size: 1.8rem;
+#breadcrumb-nav {
+    padding: 1rem 0 1rem 4rem;
     margin: 0;
     width: 60%;
+    height: fit-content;
+    background-color: rgba(230, 234, 237,0.98);
+}
+
+#breadcrumb {
+    list-style: none;
+    font-size: 1.8rem;
 }
 
 /* Display list items side by side */
