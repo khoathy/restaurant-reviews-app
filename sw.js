@@ -6,7 +6,18 @@ self.addEventListener('install', function (event) {
             return cache.addAll([
                 './',
                 './css/styles.css',
+                './css/queries.css',
                 './data/restaurants.json',
+                './img/10-small.jpg',
+                './img/1-small.jpg',
+                './img/2-small.jpg',
+                './img/3-small.jpg',
+                './img/4-small.jpg',
+                './img/5-small.jpg',
+                './img/6-small.jpg',
+                './img/7-small.jpg',
+                './img/8-small.jpg',
+                './img/9-small.jpg',
                 './img/1.jpg',
                 './img/10.jpg',
                 './img/2.jpg',
@@ -51,4 +62,4 @@ self.addEventListener('fetch', function (event) {
                 return response || fetch(event.request);
             })
     );
-}); 
+});

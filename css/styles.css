@@ -14,7 +14,8 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit; }
+  box-sizing: inherit; 
+}
 
 *:focus {
     outline: 0 !important;
@@ -63,7 +64,18 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 2rem;
 }
 
-article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
 
@@ -113,7 +125,6 @@ nav h1 a {
     left: 50%;
     bottom: -10rem;
     transform: translate(-50%);
-
 }
 
 .skip-link:focus {
@@ -233,7 +244,6 @@ nav h1 a {
     display: block;
     margin: 0;
     max-width: 100%;
-    /* min-height: 248px; */
     min-width: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -270,7 +280,6 @@ nav h1 a {
 
 .restaurant-info a {
     background-color: #f7a516;
-    /* border-bottom: 3px solid #eee; */
     color: #fff;
     display: inline-block;
     font-size: 1.6rem;
