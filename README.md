@@ -1,6 +1,6 @@
 # Restaurant Reviews App
 
-### Project Overview
+## Project Overview
 
 This project is to convert a static design that lacks accessibility to a web application that is responsive on all displays and accessible for screen reader use.
 
@@ -8,7 +8,8 @@ The starter code (https://github.com/udacity/mws-restaurant-stage-1) has a lot o
 
 Besides, service worker is to be added to begin the process of creating a seamless offline experience for users.
 
-### Features
+
+## Features
 
 - The site fully responsive. All of the page elements is usable and visible in any viewport, including desktop, tablet, and mobile displays. Page elements should wrap when the viewport is too small to display them side by side.
 
@@ -17,7 +18,7 @@ Besides, service worker is to be added to begin the process of creating a seamle
 - Cache the static site for offline use. Using Cache API and a ServiceWorker, cache the data for the website so that any page (including images) that has been visited is accessible offline.
 
 
-### How to run the app
+## How to run the app
 
 Clone or download this repo.
 
