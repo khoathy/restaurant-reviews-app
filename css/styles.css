@@ -140,6 +140,7 @@ nav h1 a {
     color: #103ee6;
     background: #e6eaed;
     z-index: 2000;
+    padding: 0 0.5rem;
 }
 
 .map-skip-link:focus {
